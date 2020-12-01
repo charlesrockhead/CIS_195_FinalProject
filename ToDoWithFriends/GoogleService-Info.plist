@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>372664138960-eoe1q7ar4cinffc7i26fnuuj2fcqej0n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.372664138960-eoe1q7ar4cinffc7i26fnuuj2fcqej0n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAYf0otpy7dlcnanfpVTsfko1KaY0aqreg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>372664138960</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sara.ToDoWithFriends</string>
+	<key>PROJECT_ID</key>
+	<string>today-20fa7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>today-20fa7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:372664138960:ios:f0e1e056b9b662972d32d5</string>
+	<key>DATABASE_URL</key>
+	<string>https://today-20fa7.firebaseio.com</string>
+</dict>
+</plist>

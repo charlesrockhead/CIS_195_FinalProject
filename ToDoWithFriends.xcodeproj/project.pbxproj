@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FE5AC7BCB47AC7895570DBA /* Pods_ToDoWithFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ED2B1904944E52890028B0 /* Pods_ToDoWithFriends.framework */; };
+		A8079B3A2444E999006B7E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8079B392444E999006B7E5E /* AppDelegate.swift */; };
+		A8079B3E2444E999006B7E5E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8079B3D2444E999006B7E5E /* StartViewController.swift */; };
+		A8079B412444E999006B7E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8079B3F2444E999006B7E5E /* Main.storyboard */; };
+		A8079B432444E99B006B7E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8079B422444E99B006B7E5E /* Assets.xcassets */; };
+		A8079B462444E99B006B7E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8079B442444E99B006B7E5E /* LaunchScreen.storyboard */; };
+		A83AA068244B1EDE0057D823 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AA067244B1EDE0057D823 /* SignUpViewController.swift */; };
+		A83AA06A244B1EFF0057D823 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AA069244B1EFF0057D823 /* LogInViewController.swift */; };
+		A83AA06C244B1F610057D823 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AA06B244B1F610057D823 /* HomeViewController.swift */; };
+		A83AA06E244B6A040057D823 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83AA06D244B6A040057D823 /* GoogleService-Info.plist */; };
+		A83AF1D724516E4000C974A2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AF1D624516E4000C974A2 /* DetailViewController.swift */; };
+		A83AF1D924519C4400C974A2 /* FriendNoteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AF1D824519C4400C974A2 /* FriendNoteListCell.swift */; };
+		A898B8B4244CE03600FB9516 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898B8B3244CE03600FB9516 /* Friends.swift */; };
+		A898B8B6244CF14200FB9516 /* NoteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898B8B5244CF14200FB9516 /* NoteListCell.swift */; };
+		A898B8B8244E2E2E00FB9516 /* UserListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898B8B7244E2E2E00FB9516 /* UserListController.swift */; };
+		A898B8BA244E420600FB9516 /* PendingFriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898B8B9244E420600FB9516 /* PendingFriendCell.swift */; };
+		A8E9398A244B853E00CA84C7 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E93989244B853E00CA84C7 /* TextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18ED2B1904944E52890028B0 /* Pods_ToDoWithFriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoWithFriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2D1592B91585DD7343ED6 /* Pods-ToDoWithFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoWithFriends.debug.xcconfig"; path = "Target Support Files/Pods-ToDoWithFriends/Pods-ToDoWithFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE0F6C742E0DB0F61E7A163 /* Pods-ToDoWithFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoWithFriends.release.xcconfig"; path = "Target Support Files/Pods-ToDoWithFriends/Pods-ToDoWithFriends.release.xcconfig"; sourceTree = "<group>"; };
+		A8079B362444E999006B7E5E /* ToDoWithFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoWithFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8079B392444E999006B7E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8079B3D2444E999006B7E5E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A8079B402444E999006B7E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8079B422444E99B006B7E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8079B452444E99B006B7E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8079B472444E99B006B7E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83AA067244B1EDE0057D823 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A83AA069244B1EFF0057D823 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A83AA06B244B1F610057D823 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A83AA06D244B6A040057D823 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A83AF1D624516E4000C974A2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A83AF1D824519C4400C974A2 /* FriendNoteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendNoteListCell.swift; sourceTree = "<group>"; };
+		A898B8B3244CE03600FB9516 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		A898B8B5244CF14200FB9516 /* NoteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListCell.swift; sourceTree = "<group>"; };
+		A898B8B7244E2E2E00FB9516 /* UserListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListController.swift; sourceTree = "<group>"; };
+		A898B8B9244E420600FB9516 /* PendingFriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingFriendCell.swift; sourceTree = "<group>"; };
+		A8E93989244B853E00CA84C7 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8079B332444E999006B7E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE5AC7BCB47AC7895570DBA /* Pods_ToDoWithFriends.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129ABDBE40C94CC5FAF56D0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18ED2B1904944E52890028B0 /* Pods_ToDoWithFriends.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8079B2D2444E999006B7E5E = {
+			isa = PBXGroup;
+			children = (
+				A8079B382444E999006B7E5E /* ToDoWithFriends */,
+				A8079B372444E999006B7E5E /* Products */,
+				C8C2BC11895068B9034BAACE /* Pods */,
+				129ABDBE40C94CC5FAF56D0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8079B372444E999006B7E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8079B362444E999006B7E5E /* ToDoWithFriends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8079B382444E999006B7E5E /* ToDoWithFriends */ = {
+			isa = PBXGroup;
+			children = (
+				A8079B392444E999006B7E5E /* AppDelegate.swift */,
+				A83AA067244B1EDE0057D823 /* SignUpViewController.swift */,
+				A83AA069244B1EFF0057D823 /* LogInViewController.swift */,
+				A83AA06B244B1F610057D823 /* HomeViewController.swift */,
+				A83AF1DA2452235B00C974A2 /* FriendList */,
+				A8079B3D2444E999006B7E5E /* StartViewController.swift */,
+				A83AF1D624516E4000C974A2 /* DetailViewController.swift */,
+				A8079B3F2444E999006B7E5E /* Main.storyboard */,
+				A898B8B5244CF14200FB9516 /* NoteListCell.swift */,
+				A83AF1D824519C4400C974A2 /* FriendNoteListCell.swift */,
+				A8079B422444E99B006B7E5E /* Assets.xcassets */,
+				A8079B442444E99B006B7E5E /* LaunchScreen.storyboard */,
+				A8079B472444E99B006B7E5E /* Info.plist */,
+				A83AA06D244B6A040057D823 /* GoogleService-Info.plist */,
+				A8E93989244B853E00CA84C7 /* TextField.swift */,
+				A898B8B7244E2E2E00FB9516 /* UserListController.swift */,
+			);
+			path = ToDoWithFriends;
+			sourceTree = "<group>";
+		};
+		A83AF1DA2452235B00C974A2 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				A898B8B3244CE03600FB9516 /* Friends.swift */,
+				A898B8B9244E420600FB9516 /* PendingFriendCell.swift */,
+			);
+			path = FriendList;
+			sourceTree = "<group>";
+		};
+		C8C2BC11895068B9034BAACE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18F2D1592B91585DD7343ED6 /* Pods-ToDoWithFriends.debug.xcconfig */,
+				2EE0F6C742E0DB0F61E7A163 /* Pods-ToDoWithFriends.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8079B352444E999006B7E5E /* ToDoWithFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8079B4A2444E99B006B7E5E /* Build configuration list for PBXNativeTarget "ToDoWithFriends" */;
+			buildPhases = (
+				74B4C4219C3BCB4A4589B6CD /* [CP] Check Pods Manifest.lock */,
+				A8079B322444E999006B7E5E /* Sources */,
+				A8079B332444E999006B7E5E /* Frameworks */,
+				A8079B342444E999006B7E5E /* Resources */,
+				219E611B97E9F4680AF1E88D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoWithFriends;
+			productName = Today;
+			productReference = A8079B362444E999006B7E5E /* ToDoWithFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8079B2E2444E999006B7E5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Sara;
+				TargetAttributes = {
+					A8079B352444E999006B7E5E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A8079B312444E999006B7E5E /* Build configuration list for PBXProject "ToDoWithFriends" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8079B2D2444E999006B7E5E;
+			productRefGroup = A8079B372444E999006B7E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8079B352444E999006B7E5E /* ToDoWithFriends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8079B342444E999006B7E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8079B462444E99B006B7E5E /* LaunchScreen.storyboard in Resources */,
+				A8079B432444E99B006B7E5E /* Assets.xcassets in Resources */,
+				A83AA06E244B6A040057D823 /* GoogleService-Info.plist in Resources */,
+				A8079B412444E999006B7E5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		219E611B97E9F4680AF1E88D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoWithFriends/Pods-ToDoWithFriends-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoWithFriends/Pods-ToDoWithFriends-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDoWithFriends/Pods-ToDoWithFriends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B4C4219C3BCB4A4589B6CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoWithFriends-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8079B322444E999006B7E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83AF1D724516E4000C974A2 /* DetailViewController.swift in Sources */,
+				A8079B3E2444E999006B7E5E /* StartViewController.swift in Sources */,
+				A898B8B6244CF14200FB9516 /* NoteListCell.swift in Sources */,
+				A8E9398A244B853E00CA84C7 /* TextField.swift in Sources */,
+				A8079B3A2444E999006B7E5E /* AppDelegate.swift in Sources */,
+				A898B8B4244CE03600FB9516 /* Friends.swift in Sources */,
+				A898B8BA244E420600FB9516 /* PendingFriendCell.swift in Sources */,
+				A83AA068244B1EDE0057D823 /* SignUpViewController.swift in Sources */,
+				A898B8B8244E2E2E00FB9516 /* UserListController.swift in Sources */,
+				A83AF1D924519C4400C974A2 /* FriendNoteListCell.swift in Sources */,
+				A83AA06A244B1EFF0057D823 /* LogInViewController.swift in Sources */,
+				A83AA06C244B1F610057D823 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8079B3F2444E999006B7E5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8079B402444E999006B7E5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8079B442444E99B006B7E5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8079B452444E99B006B7E5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8079B482444E99B006B7E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8079B492444E99B006B7E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8079B4B2444E99B006B7E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F2D1592B91585DD7343ED6 /* Pods-ToDoWithFriends.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHCDM4FSMV;
+				INFOPLIST_FILE = ToDoWithFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.ToDoWithFriends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8079B4C2444E99B006B7E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE0F6C742E0DB0F61E7A163 /* Pods-ToDoWithFriends.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHCDM4FSMV;
+				INFOPLIST_FILE = ToDoWithFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.ToDoWithFriends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8079B312444E999006B7E5E /* Build configuration list for PBXProject "ToDoWithFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8079B482444E99B006B7E5E /* Debug */,
+				A8079B492444E99B006B7E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8079B4A2444E99B006B7E5E /* Build configuration list for PBXNativeTarget "ToDoWithFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8079B4B2444E99B006B7E5E /* Debug */,
+				A8079B4C2444E99B006B7E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8079B2E2444E999006B7E5E /* Project object */;
+}
