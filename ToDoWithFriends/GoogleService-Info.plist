@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>372664138960-eoe1q7ar4cinffc7i26fnuuj2fcqej0n.apps.googleusercontent.com</string>
+	<string>485667576993-fhkffrg8p9q9fcr4j2lcj5heog25u07e.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.372664138960-eoe1q7ar4cinffc7i26fnuuj2fcqej0n</string>
+	<string>com.googleusercontent.apps.485667576993-fhkffrg8p9q9fcr4j2lcj5heog25u07e</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAYf0otpy7dlcnanfpVTsfko1KaY0aqreg</string>
+	<string>AIzaSyAICxSpv4OZWIpAw76YVZuZ4wx6HudI0ws</string>
 	<key>GCM_SENDER_ID</key>
-	<string>372664138960</string>
+	<string>485667576993</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.sara.ToDoWithFriends</string>
 	<key>PROJECT_ID</key>
-	<string>today-20fa7</string>
+	<string>todo-e1732</string>
 	<key>STORAGE_BUCKET</key>
-	<string>today-20fa7.appspot.com</string>
+	<string>todo-e1732.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:372664138960:ios:f0e1e056b9b662972d32d5</string>
+	<string>1:485667576993:ios:e4003c6ec096ba445864e0</string>
 	<key>DATABASE_URL</key>
-	<string>https://today-20fa7.firebaseio.com</string>
+	<string>https://todo-e1732.firebaseio.com</string>
 </dict>
 </plist>
