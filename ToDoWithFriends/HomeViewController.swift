@@ -53,7 +53,8 @@ class HomeViewController: UIViewController {
                 self?.tableView.reloadData()
         }
     }
-    @IBAction  func addNewNote() {
+    
+    @IBAction func addNewNote(_ sender: UIBarButtonItem) {
         let newNote = NoteItem(title: "")
         newNote.id = "add_new_item"
         list.insert(newNote, at: 0)

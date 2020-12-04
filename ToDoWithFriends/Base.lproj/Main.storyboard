@@ -44,14 +44,14 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ToDoWithFriends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHv-OX-AgF">
-                                <rect key="frame" x="95" y="364" width="231" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intellect" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHv-OX-AgF">
+                                <rect key="frame" x="95" y="384.5" width="231" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <color key="textColor" name="gunmental"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A  to-do list app designed to increase your productivity by allowing your friends to see your daily to-do list progress!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFY-OK-VQT">
-                                <rect key="frame" x="58" y="449.5" width="299" height="81.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A social media study app that allows you to see what your friends are working on and study efficiently!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFY-OK-VQT">
+                                <rect key="frame" x="58" y="470" width="299" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -230,6 +230,38 @@
             </objects>
             <point key="canvasLocation" x="1048" y="841"/>
         </scene>
+        <!--Locstion-->
+        <scene sceneID="ggl-jG-mfi">
+            <objects>
+                <viewController id="aeS-XN-yZZ" customClass="MapViewController" customModule="ToDoWithFriends" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NS9-WC-iIz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vO7-za-uzb">
+                                <rect key="frame" x="0.0" y="141" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRh-Bm-AvE">
+                                <rect key="frame" x="95" y="88" width="215" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="nlI-dH-wth"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Locstion" image="mappin" catalog="system" id="kVf-If-Byy"/>
+                    <connections>
+                        <outlet property="map" destination="vO7-za-uzb" id="Y0w-uA-WBL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lyY-Zj-Upc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2860.8695652173915" y="975"/>
+        </scene>
         <!--HomeViewController-->
         <scene sceneID="4Gf-RC-aoF">
             <objects>
@@ -297,7 +329,7 @@
                     <navigationItem key="navigationItem" title="Todo" id="c5D-vq-DNK">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zne-Xs-Hti">
                             <connections>
-                                <action selector="addNewNote" destination="Yvk-MF-EAs" id="CF6-A3-PGd"/>
+                                <action selector="addNewNote:" destination="Yvk-MF-EAs" id="1Hy-9f-RUA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -308,21 +340,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1cv-PI-BjM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5900.0000000000009" y="81.696428571428569"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="VDH-34-7BU">
-            <objects>
-                <viewController id="Oh6-OD-aqH" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Fbt-6b-62P">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="vyB-Fs-QwQ"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="abS-c6-018" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4080" y="806"/>
         </scene>
         <!--FriendsViewController-->
         <scene sceneID="HhP-LN-yNE">
@@ -579,8 +596,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="d9h-a9-UnL" kind="relationship" relationship="viewControllers" id="RPP-Cs-oml"/>
                         <segue destination="tUe-dl-DLB" kind="relationship" relationship="viewControllers" id="bAb-rF-vND"/>
+                        <segue destination="d9h-a9-UnL" kind="relationship" relationship="viewControllers" id="RPP-Cs-oml"/>
+                        <segue destination="aeS-XN-yZZ" kind="relationship" relationship="viewControllers" id="h1J-XB-Rwh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T53-iv-nks" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -629,6 +647,7 @@
     <resources>
         <image name="doc.text" catalog="system" width="115" height="128"/>
         <image name="doc.text.fill" catalog="system" width="115" height="128"/>
+        <image name="mappin" catalog="system" width="105" height="128"/>
         <image name="person.2" catalog="system" width="128" height="81"/>
         <image name="person.2.fill" catalog="system" width="128" height="80"/>
         <image name="person.badge.plus.fill" catalog="system" width="128" height="116"/>

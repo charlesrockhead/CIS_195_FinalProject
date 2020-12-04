@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56CD9A81257AAD0B00310F9B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD9A80257AAD0B00310F9B /* MapViewController.swift */; };
 		9FE5AC7BCB47AC7895570DBA /* Pods_ToDoWithFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ED2B1904944E52890028B0 /* Pods_ToDoWithFriends.framework */; };
 		A8079B3A2444E999006B7E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8079B392444E999006B7E5E /* AppDelegate.swift */; };
 		A8079B3E2444E999006B7E5E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8079B3D2444E999006B7E5E /* StartViewController.swift */; };
@@ -30,6 +31,7 @@
 		18ED2B1904944E52890028B0 /* Pods_ToDoWithFriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoWithFriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F2D1592B91585DD7343ED6 /* Pods-ToDoWithFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoWithFriends.debug.xcconfig"; path = "Target Support Files/Pods-ToDoWithFriends/Pods-ToDoWithFriends.debug.xcconfig"; sourceTree = "<group>"; };
 		2EE0F6C742E0DB0F61E7A163 /* Pods-ToDoWithFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoWithFriends.release.xcconfig"; path = "Target Support Files/Pods-ToDoWithFriends/Pods-ToDoWithFriends.release.xcconfig"; sourceTree = "<group>"; };
+		56CD9A80257AAD0B00310F9B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A8079B362444E999006B7E5E /* ToDoWithFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoWithFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8079B392444E999006B7E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8079B3D2444E999006B7E5E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				A83AA06D244B6A040057D823 /* GoogleService-Info.plist */,
 				A8E93989244B853E00CA84C7 /* TextField.swift */,
 				A898B8B7244E2E2E00FB9516 /* UserListController.swift */,
+				56CD9A80257AAD0B00310F9B /* MapViewController.swift */,
 			);
 			path = ToDoWithFriends;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				A8E9398A244B853E00CA84C7 /* TextField.swift in Sources */,
 				A8079B3A2444E999006B7E5E /* AppDelegate.swift in Sources */,
 				A898B8B4244CE03600FB9516 /* Friends.swift in Sources */,
+				56CD9A81257AAD0B00310F9B /* MapViewController.swift in Sources */,
 				A898B8BA244E420600FB9516 /* PendingFriendCell.swift in Sources */,
 				A83AA068244B1EDE0057D823 /* SignUpViewController.swift in Sources */,
 				A898B8B8244E2E2E00FB9516 /* UserListController.swift in Sources */,
